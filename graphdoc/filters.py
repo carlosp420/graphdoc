@@ -27,7 +27,7 @@ def gql_group(value) -> str:
 
 
 def markdown(value):
-    return markdowner.convert(value)
+    return markdowner.convert(str(value))
 
 
 def slugify(value):
